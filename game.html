@@ -1,0 +1,58 @@
+<!DOCTYPE html> <!-- Oh hey, we're starting an HTML document here! {conyo mode activated}-->
+<html lang="en" > <!-- Setting the language to English, cool cool cool -->
+<head>
+  <meta charset="UTF-8"> <!-- Making sure our characters are all on the same page -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Scaling things up for all screen sizes -->
+  <title>Stackers</title> <!-- Giving our page a catchy title -->
+  <link rel="stylesheet" href="./game.css"> <!-- Bringing in the style to make things look pretty -->
+  <link rel="stylesheet" href="game2.css"> <!-- More style? More swag! -->
+  <script src="https://kit.fontawesome.com/5b29f51c0c.js" crossorigin="anonymous"></script> <!-- Bringing in the font awesome icons, let's get fancy -->
+</head>
+<body>
+
+<div id="container"> <!-- Here's where all the action happens, our little playground -->
+	<div id="game"></div> <!-- Setting up the game area, time to have some fun -->
+	<div id="score">0</div> <!-- Keeping track of those points, you're doing great! -->
+	<div id="instructions">Place block (click or spacebar)</div> <!-- Just a little reminder of what to do, easy peasy -->
+	<div class="game-over"> <!-- Uh oh, game over, but don't worry, you're still a winner -->
+		<h2>Game Over</h2> <!-- Game over screen, but you're still awesome -->
+		<p>You're amazing! Keep up the good work!</p> <!-- Hey, you're killing it out there, keep it up! -->
+		<p>Give it another shot! (click or spacebar)</p> <!-- One more round? You got this! -->
+	</div>
+	<div class="game-set"> <!-- Setting up the game, let's get ready to rumble -->
+		<div id="start-button">Press anywhere to start <!-- Ready to kick things off? Let's do this! -->
+			<i class="fa-solid fa-boxes-stacked fa-bounce fa-2xs"></i> <!-- Stacked and ready to roll -->
+		</div>
+		<div>
+			
+		</div>
+	</div>
+	
+	<!-- button: --> <!-- Time for some buttons, get ready to click away -->
+	<div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> <!-- Plenty of space for action -->
+		<div class="container"> <!-- Keeping everything neat and tidy in this container -->
+			<div class="content"> <!-- Content is king, right? -->
+				<div class="icon-container"> <!-- A little home for our icons, looking sharp -->
+					<a href="menuuwu.html" class="icon icon-fill"><i class="fa fa-home"></i> </a> <!-- Click here to go home, cozy! -->
+					<a href="ABOUT_US.html" class="icon icon-enter"><i class="fa fa-user"></i> </a> <!-- Time to meet the gang, come on in! -->
+					<a href="game.html" class="icon icon-collapse"><i class="fa fa-sign-in"></i> </a> <!-- Ready to jump in? Let's go! -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 3D graphics library kit: --> <!-- Time to bring some 3D magic into the mix -->
+<!-- credits: threejs.org --> <!-- Big shoutout to three.js for the awesome graphics -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.min.js'></script> <!-- Grabbing the three.js library -->
+
+<!-- Javascript library animation kit: --> <!-- Let's add some cool animations to the mix -->
+<!-- credits: GreenSock.com --> <!-- Thanks to GreenSock for the awesome animations -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js'></script> <!-- Snagging the GreenSock library -->
+
+<!-- script.js --> <!-- Time to make it all come alive with some JavaScript magic -->
+<script src="./game.js"></script>
+
+<!-- game inspired by Stack: https://itunes.apple.com/us/app/stack/id1080487957?mt=8 --> <!-- Inspiration credit, shoutout to Stack for the inspo -->
+</body>
+</html>
